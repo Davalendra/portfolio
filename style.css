@@ -90,5 +90,16 @@ ul li {
   background: #111;
 }
 
+.profile-pic {
+  width: 150px !important;
+  height: 150px !important;
+}
+@media (max-width: 600px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 
 
