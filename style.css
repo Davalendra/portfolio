@@ -90,6 +90,20 @@ ul li {
   background: #111;
 }
 
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+}
 .profile-pic {
   width: 150px !important;
   height: 150px !important;
@@ -100,6 +114,7 @@ ul li {
     height: 100px;
   }
 }
+
 
 
 
